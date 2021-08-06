@@ -1,6 +1,9 @@
 #!/bin/bash
 
 
+# change the cwd to this folder
+cd "$(dirname "$0")"
+
 # the file that we create to know whether we've installed or not
 INSTALL_FILE='./INSTALLED'
 CONFIG_FILE='./config.ini'
